@@ -1,0 +1,19 @@
+  This project is to write a Linux kernel module that implements a ramdisk: an in-memory block device. 
+  A block device is basically a device that acts like a disk, supporting random-access read and write operations of fixed-sized units called sectors. 
+  Random-access means the disk can read or write sectors in any order -- unlike a pipe.
+  Our ramdisk will support the usual read and write operations. which means it can read 
+and write the ramdisk by reading and writing a file, for instance one named /dev/osprda. 
+  Our ramdisk will also support a special read/write locking feature, where a process 
+can gain exclusive access to the ramdisk. And our implementation have to make sure that 
+the synchronization issues should be handled smoothly.
+# Partner 1
+Name: Zhen Feng
+Student 
+Email:afeng568@gmail.com
+
+# Partner 2
+#Name: Yi Wang
+#Student 
+#Email:sky.wang@ucla.edu
+
+
